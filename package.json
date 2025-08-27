@@ -1,0 +1,26 @@
+{
+  "name": "notes-app",
+  "version": "1.0.0",
+  "description": "Notes App with RESTful API Integration",
+  "main": "src/script.js",
+  "scripts": {
+    "start-dev": "webpack serve --mode development",
+    "build": "webpack --mode production",
+    "format": "prettier --write src/**/*.{js,css,html}",
+    "format:check": "prettier --check src/**/*.{js,css,html}",
+    "format:js": "prettier --write src/**/*.js"
+  },
+  "devDependencies": {
+    "webpack": "^5.88.0",
+    "webpack-cli": "^5.1.0",
+    "webpack-dev-server": "^4.15.0",
+    "html-webpack-plugin": "^5.5.0",
+    "css-loader": "^6.8.0",
+    "style-loader": "^3.3.0",
+    "prettier": "^3.0.0"
+  },
+  "dependencies": {
+    "sweetalert2": "^11.7.0",
+    "animejs": "^3.2.1"
+  }
+}
