@@ -14,8 +14,8 @@
 ### Clone the Repository:
 Clone this repository and install all required dependencies:<br>
 Bash<br>
-```git clone https://github.com/your-username/your-repository.git```<br>
-```cd your-repository```<br>
+```git clone https://github.com/ARiMa8/dicoding_notes-app-restfulapi```<br>
+```cd notes-app-restfulapi```<br>
 ```npm install```<br>
 
 ### Running the Development Server
